@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link, a:hover, a:visited, a:active
+{
+	color:#000;
+}
+
+*
+{
+	color:#000;
+}
+
+.header
+{
+	width:100%;
+	position:fixed;
+	top:0px;
+	z-index:1;
+	background-color:#444;
+}
+
+.tentang
+{
+	height:50px;
+}
+
+.pencarian
+{
+	height:50px;
+}
+
+.pertanyaan
+{
+	position:relative;
+	height:100px;
+	font-size:30px;
+	text-align:center;
+	line-height:100px;
+}
+
+.pilihan
+{
+	width:40%;
+	display:inline-block;
+	font-size:40px;
+	text-align:center;
+	line-height:100px;
+	vertical-align:middle;
+}
+
+.atau
+{
+	width:20%;
+	position:relative;
+	display:inline-block;
+	text-align:center;
+	font-size:40px;
+	line-height:150px;
+}
+
+.dunno
+{
+	width:20%;
+	height:50px;
+	position:relative;
+	margin-top:-50px;
+	left: 40%;
+	z-index:1;
+	font-size:20px;
+	line-height:50px;
+	text-align:center;
+}
+
+.judul_rank
+{
+	height:75px;
+	background-color:#AAA;
+	font-size:30px;
+	line-height:75px;
+	text-align:center;
+}
+
+.tampilkan_rank
+{
+	display:table;
+	width:100%;
+}
+
+.rank
+{
+	font-size:20px;
+	display:table-cell;
+	float:none;
+	vertical-align:top;
+}
+
+.rank_ganjil
+{
+	background-color:#777;
+}
+
+.rank_genap
+{
+	background-color:#999;
+}
+
+.judul_kategori
+{
+}
+
+.footer
+{
+	height:75px;
+	background-color:#444;
+	text-align:center;
+	font-size:15px;
+	line-height:32.5px;
+	z-index:1;
+}

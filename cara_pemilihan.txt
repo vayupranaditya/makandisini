@@ -1,0 +1,19 @@
+ada array
+ambil 2 yang paling jarang muncul, masing2 muncul +1
+pilih penilaian yang paling jarang muncul di masing2 gerai terpilih
+penilaian dipakai adalah penilaian yang lebih jarang dari tiap gerai(a). kalo panilaiannya sama banyak, pakai yang dari gerai paling jarang terpilih(b). kalau sama banyak, acak(c).
+kasi user milih 1
+yang user pilih, skor penilaiannya nambah 1
+
+
+
+#MILIH GERAI A
+1. cari muncul minimum
+2. select gerai dengan muncul minimum, diurut secara acak (rand), dan dibatasi 1 hasil
+
+#MILIH GERAI B
+1. select gerai dengan muncul minimum, bukan GERAI A, diurut secara acak, dan dibatasi 1 hasil
+2. cek apakah query no B1. menghasilkan 1 hasil:
+	ya: GERAI B adalah hasil dari query no B1
+	tidak: cari nilai minimum muncul berikutnya (kedua terkecil), lalu:
+		select gerai dengan muncul mininmum kedua, diurut secara acak, dan dibatasi 1 hasil
